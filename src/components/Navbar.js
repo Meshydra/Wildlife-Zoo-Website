@@ -1,14 +1,14 @@
-import React, {useState} from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react'
+import {Link} from 'react-router-dom'
 
 function Navbar() {
     return (
         <>
             <nav className='navbar'>
                 <div className='navbar-container'>
-                    <link to ="/" className='navbar-logo'>
-                        WildLife
-                    </link>
+                    <Link to ="/" className='navbar-logo'>
+                        <p>WildLife a</p> 
+                    </Link>
                 </div>
             </nav>
         </>
