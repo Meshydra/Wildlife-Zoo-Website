@@ -47,7 +47,7 @@ function Footer() {
           <div class='footer-link-items'>
             <h2>Videos</h2>
             <Link to='/'>Submit your visit</Link>
-            <Link to='/'>Ambassadors</Link>
+            <Link to='/'>Ambassador</Link>
             <Link to='/'>Agency</Link>
             <Link to='/'>Influencer</Link>
           </div>
