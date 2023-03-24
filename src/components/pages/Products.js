@@ -1,10 +1,6 @@
 import React from 'react';
-import'../../App.css';
+import '../../App.css';
 
 export default function Products() {
-    return (
-        <div>
-        
-        </div>
-    )
+    return <h1 className='products'>Products</h1>;
 }
