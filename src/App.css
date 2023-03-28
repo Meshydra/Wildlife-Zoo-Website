@@ -5,6 +5,10 @@
     font-family: 'PT Sans', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .home,
 .services,
 .products,
