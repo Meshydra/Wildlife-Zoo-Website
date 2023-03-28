@@ -10,10 +10,10 @@ export default function HeroSection() {
         <h1>Welcome to the Zoo</h1>
         <p>A Zoo where we obeserve the wildlife not trap it </p>
         <div className='hero-btns'>
-            <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>
+            <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large' link="/animals">
                 Animals
             </Button>
-            <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large'>
+            <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large' link="/SignUp">
                 Contact<i className='fab '></i>
             </Button>
         </div>

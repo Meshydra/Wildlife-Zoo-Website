@@ -5,41 +5,41 @@ import CardItem from './CardItem';
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Check out these EPIC Destinations!</h1>
+      <h1>Check out these AMAZING Sights!</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-9.jpg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
-              path='/services'
+              src='images/Lion.jpg'
+              text='The lion is a large cat of the genus Panthera native to Africa and India.'
+              label='Lions'
+              path='/animals'
             />
             <CardItem
-              src='images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
-              path='/services'
+              src='images/gorilla.jpg'
+              text='Gorillas are herbivorous, ground-dwelling great apes that inhabit the tropical forests of equatorial Africa.'
+              label='Gorillas'
+              path='/animals'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-3.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
+              src='images/aqua.jpg'
+              text='Meet the aquatic life at the Wildlife zoo'
               label='Mystery'
-              path='/services'
+              path='/animals'
             />
             <CardItem
-              src='images/img-4.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
-              path='/products'
+              src='images/elephant.jpg'
+              text='Elephants are the largest existing land animals.'
+              label='Elephants'
+              path='/animals'
             />
             <CardItem
-              src='images/img-8.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
-              path='/sign-up'
+              src='images/penguin.jpg'
+              text='A group of aquatic flightless birds, which have black backs and wings with white fronts that are countershaded for camouflage.'
+              label='Penguins'
+              path='/animals'
             />
           </ul>
         </div>
