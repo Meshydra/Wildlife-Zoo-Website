@@ -11,7 +11,7 @@ html{
 
 .home,
 .services,
-.products,
+.animals,
 .sign-up {
     display: flex;
     height: 90vh;
@@ -29,7 +29,7 @@ html{
     font-size: 100px;
 }
 
-.products {
+.animals {
     background-image: url('./images/img-1.jpg');
     background-position: center;
     background-size: fill;
