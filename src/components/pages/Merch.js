@@ -2,5 +2,5 @@ import React from 'react';
 import '../../App.css';
 
 export default function Merch() {
-    return <h1 className='services'>Merch</h1>;
+    return <h1 className='merch'>Merch</h1>;
 }

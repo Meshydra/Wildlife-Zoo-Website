@@ -10,7 +10,7 @@ html{
 }
 
 .home,
-.services,
+.merch,
 .animals,
 .sign-up {
     display: flex;
@@ -20,7 +20,7 @@ html{
     font-size: 3rem;
 }
 
-.services {
+.merch {
     background-image: url('./images/img-2.jpg');
     background-position: center;
     background-size: cover;
